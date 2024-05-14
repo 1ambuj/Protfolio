@@ -1,4 +1,5 @@
 import React from "react"
+import "../App.css"
 export default function Contact(){
     return (
         <section className="contact" id="contact">

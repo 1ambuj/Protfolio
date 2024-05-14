@@ -4,22 +4,21 @@ import "./App.css"
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
 
 
   return (
       <>
-        <Header />
+      <Header />
        <main role="main">
           <Work />
           <About />
        </main>
        <Contact />
        <Footer />
-       <a href="#top" className="back-to-top" title="Back to Top">
-        <img src="./images/arrow-up.svg" alt="Back to Top" className="back-to-top__image"/>
-      </a>
+       <BackToTopButton />
       </>
   )
 }

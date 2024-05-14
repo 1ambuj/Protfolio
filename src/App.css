@@ -313,7 +313,13 @@ body:not(.user-is-tabbing) a:focus {
 
 .back-to-top__image {
   height: 70%;
+  
 }
+
+.visible {
+  visibility: visible;
+}
+
 
 @media(max-width: 900px) {
   .back-to-top {
