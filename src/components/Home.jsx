@@ -1,4 +1,4 @@
-import React from "react"
+
 import "../App.css"
 export default function Home(){
     return (
@@ -20,11 +20,11 @@ export default function Home(){
                 <div className="header__text-box row">
                 <div className="header__text">
                     <h1 className="heading-primary">
-                    {/* <!-- Replace the following name with your name --> */}
+                   
                     <span>Ambuj Mishra</span>
                     </h1>
                     
-                    <p>A Front-End Developer based in London, UK
+                    <p>A Front-End Developer based in India
             </p>
                     <a href="#contact" className="btn btn--pink">Get in touch</a>
                 </div>

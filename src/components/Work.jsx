@@ -1,8 +1,8 @@
-import React from 'react';
-import Project1 from "../assets/images/dashboard-2.png"
+
+import Project1 from "../assets/images/youtubeClone.png"
 import Github from "../assets/images/github.svg"
-import Project2 from "../assets/images/password.jpg"
-import Project3 from "../assets/images/quiz.jpg"
+import Project2 from "../assets/images/instagram01.png"
+import Project3 from "../assets/images/vanlife.png"
 import "../App.css"
 export default function Work() {
   return (
@@ -12,9 +12,9 @@ export default function Work() {
         <div className="work__boxes">
           <div className="work__box">
             <div className="work__text">
-              <h3>Personal Dashboard</h3>
+              <h3>Youtube Clone</h3>
               <p>
-                A Chrome extension to help you focus and stay up-to-date.
+              Designed a YouTube-like platform with easy search, customizable filters, and smooth scrolling, ensuring effortless content exploration tailored to individual preferences
               </p>
               <ul className="work__list">
                 <li>HTML</li>
@@ -23,10 +23,10 @@ export default function Work() {
                 <li>React</li>
               </ul>
               <div className="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" className="link__text">
+                <a href="https://ambujyoutubeclone.netlify.app/" target="_blank" className="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/1ambuj/YoutubeClone" title="View Source Code" target="_blank">
                   <img src={Github} className="work__code" alt="GitHub" />
                 </a>
               </div>
@@ -38,56 +38,56 @@ export default function Work() {
 
           <div className="work__box">
             <div className="work__text">
-              <h3>Password Generator</h3>
+              <h3>Insta clone</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+              Developed an Instagram clone like platform integrating features such as post uploading, editing, liking, delete post and robust user authentication. 
               </p>
               <ul className="work__list">
+
                 <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>HTML</li>
+                <li>Tailwind</li>
+                <li>CSS</li>
+                <li>Appwrite</li>
               </ul>
 
               <div className="work__links">
-                <a href="#" className="link__text">
+                <a href="https://rococo-pie-638e9b.netlify.app/sign-in" className="link__text" target="_blank">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/1ambuj/Instapostgram">
                   <img src={Github} className="work__code" title="View Source Code" alt="GitHub" />
                 </a>
               </div>
             </div>
             <div className="work__image-box">
-              <img src={Project2} className="work__image" alt="Project 2" />
+              <img src={Project2} className="work__image instagram" alt="Project 2" />
             </div>
           </div>
 
           <div className="work__box">
             <div className="work__text">
-              <h3>Quizzical App</h3>
+              <h3>Vanlife App</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+              Developed a multi-page Vanlife platform with user authentication and advanced filtering capabilities using React Router. Users can personalize their van life experience by filtering vans based on their conditions and preferences. Implemented secure authentication features to ensure user privacy and data integrity, enhancing the overall user experience and engagement.
               </p>
               <ul className="work__list">
+                <li>Html</li>
+                <li>css</li>
+                <li>javascript</li>
                 <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
               </ul>
               <div className="work__links">
-                <a href="#" className="link__text">
+                <a href="https://thunderous-vanlife.netlify.app/" className="link__text" target="_blank">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/1ambuj/Vanlife_React_Project">
                   <img src={Github} className="work__code" title="View Source Code" alt="GitHub" />
                 </a>
               </div>
             </div>
             <div className="work__image-box">
-              <img src={Project3} className="work__image" alt="Project 3" />
+              <img src={Project3} className="work__image vanlife" alt="Project 3"  />
             </div>
           </div>
         </div>
