@@ -320,7 +320,10 @@ body:not(.user-is-tabbing) a:focus {
   visibility: visible;
 }
 
-
+.vanlife{
+  width: 500px;
+  height:500px
+}
 @media(max-width: 900px) {
   .back-to-top {
       right: 2rem;
@@ -446,6 +449,10 @@ body:not(.user-is-tabbing) a:focus {
   display: flex;
   align-items: center;
 }
+.instagram {
+  border: 2px solid #3731317d;
+
+}
 
 @media(max-width: 900px) {
   .work__box {
@@ -541,6 +548,10 @@ body:not(.user-is-tabbing) a:focus {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+}
+.about__photo{
+
+  height:350px
 }
 
 @media(max-width: 900px) {
